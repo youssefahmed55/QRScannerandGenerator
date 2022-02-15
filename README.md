@@ -2,6 +2,20 @@
 This App Can Generate QRCode and Scan QRCode from Images or Camera 
 
 
+-Manifest :
+
+
+<uses-permission android:name="android.permission.CAMERA" />
+
+
+<uses-feature android:name="android.hardware.camera" />
+
+
+<uses-feature android:name="android.hardware.camera.autofocus"/>
+
+
+
+
 build.gradle(Module) :
 
 
@@ -23,7 +37,7 @@ build.gradle(Module) :
 
      
  
- dependencies:
+ -dependencies:
  
  
 • Sdp
@@ -75,7 +89,7 @@ build.gradle(Module) :
 Download APk :
 
 
-https://www.mediafire.com/file/2pwb7nzouip9p0a/QRScannerandGenerator.apk/file
+https://www.mediafire.com/file/gsl4jzn4911zjjs/QRScannerandGenerator.apk/file
 
 
 
