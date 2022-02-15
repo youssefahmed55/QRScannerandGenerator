@@ -68,3 +68,9 @@ build.gradle(Module) :
 
 
    ` implementation 'com.google.code.gson:gson:2.8.8'`
+
+
+Download APk :
+
+
+https://www.mediafire.com/file/2pwb7nzouip9p0a/QRScannerandGenerator.apk/file
