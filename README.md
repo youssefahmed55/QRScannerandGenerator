@@ -27,6 +27,9 @@ build.gradle(Module) :
      }}
 
 
+ -dependencies:
+
+
 • Navigation Component
 
 
@@ -35,10 +38,6 @@ build.gradle(Module) :
  
 ` implementation 'androidx.navigation:navigation-ui:2.4.1'`
 
-     
- 
- -dependencies:
- 
  
 • Sdp
 
