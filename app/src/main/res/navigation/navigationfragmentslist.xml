@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationfragmentslist"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.qrscannerandgenerator.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_generateFragment"
+            app:destination="@id/generateFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_scanCameraFragment"
+            app:destination="@id/scanCameraFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.qrscannerandgenerator.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_generateFragment"
+            app:destination="@id/generateFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_scanCameraFragment"
+            app:destination="@id/scanCameraFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/generateFragment"
+        android:name="com.example.qrscannerandgenerator.GenerateFragment"
+        android:label="fragment_generate"
+        tools:layout="@layout/fragment_generate" />
+    <fragment
+        android:id="@+id/scanCameraFragment"
+        android:name="com.example.qrscannerandgenerator.ScanCameraFragment"
+        android:label="fragment_scan_camera"
+        tools:layout="@layout/fragment_scan_camera" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.qrscannerandgenerator.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>
