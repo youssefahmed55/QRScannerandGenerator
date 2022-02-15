@@ -5,13 +5,13 @@ This App Can Generate QRCode and Scan QRCode from Images or Camera
 -Manifest :
 
 
-<uses-permission android:name="android.permission.CAMERA" />
+`uses-permission android:name="android.permission.CAMERA"`
 
 
-<uses-feature android:name="android.hardware.camera" />
+`uses-feature android:name="android.hardware.camera"`
 
 
-<uses-feature android:name="android.hardware.camera.autofocus"/>
+`uses-feature android:name="android.hardware.camera.autofocus"`
 
 
 
