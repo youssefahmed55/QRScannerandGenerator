@@ -1,4 +1,4 @@
-package com.example.qrscannerandgenerator;
+package com.qr.qrscannerandgenerator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

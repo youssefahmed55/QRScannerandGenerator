@@ -1,4 +1,4 @@
-package com.example.qrscannerandgenerator;
+package com.qr.qrscannerandgenerator;
 
 import static android.content.Context.MODE_PRIVATE;
 import android.Manifest;
@@ -27,7 +27,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.qrscannerandgenerator.databinding.FragmentMainBinding;
+import com.qr.qrscannerandgenerator.databinding.FragmentMainBinding;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.zxing.BinaryBitmap;

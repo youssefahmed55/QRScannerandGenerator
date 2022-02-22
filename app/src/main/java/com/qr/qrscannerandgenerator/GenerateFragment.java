@@ -1,4 +1,4 @@
-package com.example.qrscannerandgenerator;
+package com.qr.qrscannerandgenerator;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
-import com.example.qrscannerandgenerator.databinding.FragmentGenerateBinding;
+import com.qr.qrscannerandgenerator.databinding.FragmentGenerateBinding;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;

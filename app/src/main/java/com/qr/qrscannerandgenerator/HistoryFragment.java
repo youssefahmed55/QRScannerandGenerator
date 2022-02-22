@@ -1,4 +1,4 @@
-package com.example.qrscannerandgenerator;
+package com.qr.qrscannerandgenerator;
 
 import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 import static android.content.Context.MODE_PRIVATE;
@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.qrscannerandgenerator.databinding.FragmentHistoryBinding;
+import com.qr.qrscannerandgenerator.databinding.FragmentHistoryBinding;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;

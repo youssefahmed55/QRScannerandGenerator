@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.qrscannerandgenerator.SplashFragment"
+        android:name="com.qr.qrscannerandgenerator.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.qrscannerandgenerator.MainFragment"
+        android:name="com.qr.qrscannerandgenerator.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -40,17 +40,17 @@
     </fragment>
     <fragment
         android:id="@+id/generateFragment"
-        android:name="com.example.qrscannerandgenerator.GenerateFragment"
+        android:name="com.qr.qrscannerandgenerator.GenerateFragment"
         android:label="fragment_generate"
         tools:layout="@layout/fragment_generate" />
     <fragment
         android:id="@+id/scanCameraFragment"
-        android:name="com.example.qrscannerandgenerator.ScanCameraFragment"
+        android:name="com.qr.qrscannerandgenerator.ScanCameraFragment"
         android:label="fragment_scan_camera"
         tools:layout="@layout/fragment_scan_camera" />
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.example.qrscannerandgenerator.HistoryFragment"
+        android:name="com.qr.qrscannerandgenerator.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
 </navigation>
