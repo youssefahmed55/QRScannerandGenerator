@@ -2,6 +2,8 @@ package com.example.qrscannerandgenerator;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
+
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,21 +62,18 @@ public class SplashFragment extends Fragment {
                              Bundle savedInstanceState) {
         //initialization View of Fragment
         view = inflater.inflate(R.layout.fragment_splash, container, false);
-        //initialization Thread for Splash Screen
-        Thread thread = new Thread(){
+        //initialization Handler for Splash Screen
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 try {
-                    super.run();
-                    sleep(5000);  //Sleep 5 Seconds
-                    Navigation.findNavController(view).navigate(R.id.action_splashFragment_to_mainFragment); //Go to another Fragment
+                    Navigation.findNavController(view).navigate(R.id.action_splashFragment_to_mainFragment);// Go to another Fragment
                 }catch (Exception e){
-                    Log.d(TAG, "run: " + e.getMessage());
+                    Log.d(TAG, "run: "+e.getMessage());
                 }
+
             }
-        };
-        //Start Thread
-        thread.start();
+        },2000);
 
 
         return view;

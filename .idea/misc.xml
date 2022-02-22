@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/drawable/buttonshape.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/layout-land/fragment_generate.xml" value="0.1" />
+        <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/layout-land/fragment_main.xml" value="0.1" />
         <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/layout/fragment_generate.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/youssef/AndroidStudioProjects/QRScannerandGenerator/app/src/main/res/layout/fragment_history.xml" value="0.1265625" />
