@@ -88,7 +88,7 @@ build.gradle(Module) :
 Download APk :
 
 
-https://www.mediafire.com/file/gsl4jzn4911zjjs/QRScannerandGenerator.apk/file
+https://www.mediafire.com/file/n4lhyot4h9cqkye/QR+Scanner+and+Generator.apk/file
 
 
 
