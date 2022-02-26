@@ -91,6 +91,10 @@ Download APk :
 https://www.mediafire.com/file/n4lhyot4h9cqkye/QR+Scanner+and+Generator.apk/file
 
 
+Download App from GooglePlay :
+
+
+https://play.google.com/store/apps/details?id=com.qr.qrscannerandgenerator
 
 
 https://user-images.githubusercontent.com/99625111/153978173-c9a54050-34a9-4160-9759-f56a0a6d663b.mp4
