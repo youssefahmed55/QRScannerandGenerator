@@ -39,6 +39,15 @@ build.gradle(Module) :
 ` implementation 'androidx.navigation:navigation-ui:2.4.1'`
 
  
+• Recycler View :
+ 
+ 
+ `implementation 'androidx.recyclerview:recyclerview:1.2.1'`
+    
+    
+ `implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'`
+ 
+ 
 • Sdp
 
 
