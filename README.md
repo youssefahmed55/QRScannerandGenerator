@@ -39,6 +39,15 @@ build.gradle(Module) :
 ` implementation 'androidx.navigation:navigation-ui:2.4.1'`
 
  
+• Recycler View :
+ 
+ 
+ `implementation 'androidx.recyclerview:recyclerview:1.2.1'`
+    
+    
+ `implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'`
+ 
+ 
 • Sdp
 
 
@@ -88,7 +97,7 @@ build.gradle(Module) :
 Download APk :
 
 
-https://www.mediafire.com/file/n4lhyot4h9cqkye/QR+Scanner+and+Generator.apk/file
+https://www.mediafire.com/file/1uutjuh8ob8hbg2/QR+Scanner+and+Generator.apk/file
 
 
 Download App from GooglePlay :
