@@ -100,7 +100,6 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         binding = FragmentMainBinding.inflate(inflater, container, false);
         view = binding.getRoot();
         inti();
-        onpressback();  // if i click Back button
         load();         //load data that Saved Before to add it new QR Scanner
         return view;
     }
@@ -112,16 +111,6 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         arrayList = new ArrayList<>();
     }
 
-    private void onpressback() {
-
-        OnBackPressedCallback callback = new OnBackPressedCallback(true /* enabled by default */) {
-            @Override
-            public void handleOnBackPressed() {
-                getActivity().finish(); // Finish/Close APP
-            }
-        };
-        requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(), callback);
-    }
 
     @Override
     public void onClick(View view) {
