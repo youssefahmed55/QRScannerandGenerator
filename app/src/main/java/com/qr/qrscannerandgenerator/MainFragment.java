@@ -11,7 +11,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -41,6 +40,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -249,12 +249,14 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         Gson gson = new Gson();
         String json = sharedPreferences.getString("key", null);
 
-        Type type = new TypeToken<ArrayList<String>>() {
-        }.getType();
+        //Type type = new TypeToken<ArrayList<String>>() {
+        // }.getType();
+
+        Type type2 = TypeToken.getParameterized(ArrayList.class, String.class).getType();
 
 
-        if (gson.fromJson(json, type) != null) {
-          arrayList =gson.fromJson(json, type) ; //Save them in arrayList
+        if (gson.fromJson(json, type2) != null) {
+          arrayList =gson.fromJson(json, type2) ; //Save them in arrayList
         }
     }
 }
