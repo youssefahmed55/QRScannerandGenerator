@@ -137,12 +137,12 @@ public class HistoryFragment extends Fragment {
         Gson gson = new Gson();
         String json = sharedPreferences.getString("key", null);
 
-        Type type = new TypeToken<ArrayList<String>>() {
-        }.getType();
+        //Type type = new TypeToken<ArrayList<String>>() {
+        //}.getType();
+        Type type2 = TypeToken.getParameterized(ArrayList.class, String.class).getType();
 
-
-        if (gson.fromJson(json, type) != null) {
-            arrayList =gson.fromJson(json, type) ;
+        if (gson.fromJson(json, type2) != null) {
+            arrayList =gson.fromJson(json, type2) ;
             myRecycleAdapter.setList(arrayList);                 //setArrayOfAdapter
             binding.RecycleHistory.setAdapter(myRecycleAdapter);
         }
