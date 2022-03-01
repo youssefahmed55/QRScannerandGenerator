@@ -11,6 +11,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -100,6 +102,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         binding = FragmentMainBinding.inflate(inflater, container, false);
         view = binding.getRoot();
         inti();
+        onpressback();  //if user click back in this fragment to close app
         load();         //load data that Saved Before to add it new QR Scanner
         return view;
     }
@@ -110,7 +113,16 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         binding.historyMain.setOnClickListener(this);
         arrayList = new ArrayList<>();
     }
+    private void onpressback(){
 
+        OnBackPressedCallback callback = new OnBackPressedCallback(true /* enabled by default */) {
+            @Override
+            public void handleOnBackPressed() {
+                getActivity().finish();
+            }
+        };
+        requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(), callback);
+    }
 
     @Override
     public void onClick(View view) {
